@@ -39,7 +39,7 @@ function App() {
             alt="The Simpsons"
           />
         </div>
-          <Button variant="warning">Obtener frase</Button>
+          <Button variant="warning" onClick={consultarAPI}>Obtener frase</Button>
           <Frase personaje={personaje}></Frase>
       </Container>
     </>
